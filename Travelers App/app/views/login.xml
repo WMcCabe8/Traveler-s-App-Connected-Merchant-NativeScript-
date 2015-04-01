@@ -1,6 +1,6 @@
 <Page loaded="load">
     <StackLayout>
-        <!--<Image source="{{ logoSource }}" /> -->
+        <Image source="{{ logoSource }}" />
         <Label text="Username:" />
         <TextField width="200" text="{{ username }}" id="username" hint="Username" />
         

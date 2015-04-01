@@ -9,7 +9,7 @@ var viewModule = require("ui/core/view");
 exports.load = function (args) {
     var page = args.object;
     var username = viewModule.getViewById(page, "username");
-    //pageData.set("logoSource", images.logo);
+    pageData.set("logoSource", images.logo);
     page.bindingContext = pageData;
 
     // Turn off autocorrect and autocapitalization for iOS
