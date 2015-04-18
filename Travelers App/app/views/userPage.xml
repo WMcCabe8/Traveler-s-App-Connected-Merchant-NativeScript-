@@ -1,5 +1,8 @@
 <Page loaded="load">
   <StackLayout>
       <Label text="Login worked!" />
+      <Button text="Chat" tap="toChat"/>
   </StackLayout>
 </Page>
+
+<!-- Will add list of Merchants here -->
