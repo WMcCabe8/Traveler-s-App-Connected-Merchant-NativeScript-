@@ -1,16 +1,24 @@
 <Page loaded="load">
-  <StackLayout>
-      <Image source="{{ logoSource }}" />
+  <ScrollView>
+      <StackLayout orientation="vertical" row="0">
+          <Image source="{{ logoSource }}" />
 
-      <Label text="Email Address:" />
-      <TextField width="200" text="{{ email_address }}" id="email" hint="Email Address" keyboardType="email" />
+          <Label text="Email Address:" />
+          <TextField width="200" text="{{ email_address }}" id="email" hint="Email Address" keyboardType="email" />
 
-      <Label text="Username:" />
-      <TextField width="200" text="{{ username }}" id="username" hint="Username" />
+          <Label text="Username:" />
+          <TextField width="200" text="{{ username }}" id="username" hint="Username" />
 
-      <Label text="Password:" />
-      <TextField width="200" text="{{ password }}" secure="true" hint="Password" />
+          <Label text="Password:" />
+          <TextField width="200" text="{{ password }}" secure="true" hint="Password" />
 
-      <Button text="Sign Up" tap="register" />
-  </StackLayout>
+          <Label text="First Name:" />
+          <TextField width="200" text="{{ firstName }}" id="firstname" hint="First Name" />
+
+          <Label text="Last Name:" />
+          <TextField width="200" text="{{ lastName }}" id="lastname" hint="Last Name" />
+          
+          <Button text="Sign Up" tap="register" />
+      </StackLayout>
+  </ScrollView>
 </Page>
