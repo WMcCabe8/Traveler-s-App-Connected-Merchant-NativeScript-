@@ -24,7 +24,7 @@ exports.load = function (args) {
 exports.signIn = function (args) {
     el.Users.login(pageData.get("username"), pageData.get("password"), function () {
         dialogs.alert("Successful login.").then(function () {
-            frameModule.topmost().navigate("app/views/test");
+            frameModule.topmost().navigate("app/views/userPage");
         });
     }, function () {
         dialogs.alert({
