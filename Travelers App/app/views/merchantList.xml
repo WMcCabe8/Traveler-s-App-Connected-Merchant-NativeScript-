@@ -1,0 +1,13 @@
+<Page loaded="load">
+  <GridLayout rows="auto, *">
+ <!--     <StackLayout orientation="horizontal" row="0">
+          <TextField id="grocery" width="200" text="{{ grocery }}" hint="Enter a grocery" />       
+          <Button text="Add" tap="add"></Button>      
+      </StackLayout>    -->
+      <ListView items="{{ merchants }}" itemTap="toMerchant" row="1">
+          <ListView.itemTemplate>
+              <Label text="{{ storename }}" />
+          </ListView.itemTemplate>
+      </ListView>
+  </GridLayout>
+</Page>
