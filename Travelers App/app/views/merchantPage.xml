@@ -1,0 +1,38 @@
+<Page navigatedTo="load">
+  <ScrollView>
+      <StackLayout orientation="vertical" row="0">
+          
+          <Label text="Store Name:" id="h1"/>
+          <Label width="200" text="{{ storeName }}" id="h2"/>          
+          
+          <Label text="Store Type:" id="h1"/>
+          <Label width="200" text="{{ storeType }}" id="h2"/>
+          
+          <Label text="Description:" id="h1"/>
+          <Label width="400" text="{{ description }}" id="h2" textWrap="true"/>
+          
+          <Label text="Sreet:" id="h1"/>
+          <Label width="200" text="{{ street }}" id="h2"/>
+          
+          <Label text="City:" id="h1"/>
+          <Label width="200" text="{{ city }}" id="h2"/>
+          
+          <Label text="State:" id="h1"/>
+          <Label width="200" text="{{ state }}" id="h2"/>
+          
+          <Label text="Zip Code:" id="h1"/>
+          <Label width="200" text="{{ zipCode }}" id="h2"/>
+          
+          <Label text="Email Address:" id="h1"/>
+          <Label width="200" text="{{ emailAddress }}" id="h2"/>
+          
+          <Label text="Phone:" id="h1"/>
+          <Label width="200" text="{{ phone }}" id="h2"/>
+
+          <Label text="Hours:" id="h1"/>
+          <Label width="200" text="{{ hours }}" id="h2"/>
+
+          <Button text="Go Back" tap="toMerchantList" />
+      </StackLayout>
+  </ScrollView>
+</Page>
