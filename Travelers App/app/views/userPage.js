@@ -11,11 +11,9 @@ exports.load = function (args) {
     page.bindingContext = pageData;
 };
 
-// Will add in Merchant list here!
 
-/*
-exports.toChat = function (args) {
+// Adds merchant list here on button tap
+exports.toMerchantList = function (args) {
     var topmost = frameModule.topmost();
-    topmost.navigate("app/views/chat");
+    topmost.navigate("app/views/merchantList");
 };
-*/

@@ -1,7 +1,7 @@
 <Page loaded="load">
   <StackLayout>
       <Label text="Login worked!" />
-      <Button text="Chat" tap="toChat"/>
+      <Button text="Merchants" tap="toMerchantList"/>
   </StackLayout>
 </Page>
 
