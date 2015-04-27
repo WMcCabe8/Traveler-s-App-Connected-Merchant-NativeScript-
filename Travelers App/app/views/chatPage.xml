@@ -1,0 +1,3 @@
+<Page loaded="load">
+      <WebView margin="10" url="http://connectedmerchant-43363.onmodulus.net/traveler-chat" loadStarted="finished" ></WebView>
+</Page>
