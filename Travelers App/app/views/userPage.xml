@@ -1,8 +1,8 @@
 <Page loaded="load">
   <StackLayout>
       <Label text="Login worked!" />
-      <Button text="Merchants" tap="toMerchantList"/>
+      <Button text="Merchants" tap="toMerchantList"/>   <!-- opens merchantList -->
+      <Button text="Chat with Merchants" tap="toChat"/>    <!-- opens chatPage -->
   </StackLayout>
 </Page>
 
-<!-- Will add list of Merchants here -->
