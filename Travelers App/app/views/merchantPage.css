@@ -1,9 +1,16 @@
+WrapLayout {
+    padding: 3;
+}
+
 #h1 {
-    background-color: lightgray;
-    color: blue;
+    color: #3399FF;
     font-size: 18;
 }
 
 #h2 {
+    color: #8AB800;
     font-size: 16;
+    background-color: #F4F4F4;
 }
+
+
