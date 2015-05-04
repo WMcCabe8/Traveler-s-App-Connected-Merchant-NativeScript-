@@ -3,14 +3,13 @@ WrapLayout {
 }
 
 #h1 {
-    color: #3399FF;
+    color: blue;
     font-size: 18;
 }
 
 #h2 {
-    color: #8AB800;
-    font-size: 16;
-    background-color: #F4F4F4;
+    color: #669900;
+    font-size: 14;
 }
 
 

@@ -1,4 +1,4 @@
-<Page navigatedTo="load">
+<Page loaded="load">
   <ScrollView>
       <WrapLayout orientation="horizontal"  itemWidth="150">
           
@@ -6,7 +6,7 @@
           <Label text="{{ storeName }}" id="h2" textWrap="true"/>          
           
           <Label text="Store Type:" id="h1"/>
-          <Label width="200" text="{{ storeType }}" id="h2"/>
+          <Label width="200" text="{{ storeType }}" id="h2" textWrap="true"/>
           
           <Label text="Description:" id="h1"/>
           <Label text="{{ description }}" id="h2" textWrap="true"/>
@@ -15,22 +15,22 @@
           <Label width="200" text="{{ street }}" id="h2" textWrap="true"/>
           
           <Label text="City:" id="h1"/>
-          <Label width="200" text="{{ city }}" id="h2"/>
+          <Label width="200" text="{{ city }}" id="h2" textWrap="true"/>
           
           <Label text="State:" id="h1"/>
-          <Label width="200" text="{{ state }}" id="h2"/>
+          <Label width="200" text="{{ state }}" id="h2" textWrap="true"/>
           
           <Label text="Zip Code:" id="h1"/>
           <Label width="200" text="{{ zipCode }}" id="h2"/>
           
           <Label text="Email Address:" id="h1"/>
-          <Label width="200" text="{{ emailAddress }}" id="h2"/>
+          <Label width="200" text="{{ emailAddress }}" id="h2" textWrap="true"/>
           
           <Label text="Phone:" id="h1"/>
-          <Label width="200" text="{{ phone }}" id="h2"/>
+          <Label width="200" text="{{ phone }}" id="h2" textWrap="true"/>
 
           <Label text="Hours:" id="h1"/>
-          <Label width="200" text="{{ hours }}" id="h2"/>
+          <Label width="200" text="{{ hours }}" id="h2" textWrap="true"/>
           
           <Button text="Call store" tap="callNumber" />
           <Button text="Go Back" tap="toMerchantList" />
