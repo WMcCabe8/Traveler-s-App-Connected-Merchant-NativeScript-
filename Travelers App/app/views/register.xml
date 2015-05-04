@@ -1,22 +1,32 @@
 <Page loaded="load">
   <ScrollView>
-      <StackLayout orientation="vertical" row="0">
+      <StackLayout orientation="vertical" row="0" marginLeft="20" marginRight="20">
           <Image source="{{ logoSource }}" />
 
-          <Label text="Email Address:" />
-          <TextField width="200" text="{{ email_address }}" id="email" hint="Email Address" keyboardType="email" />
-
-          <Label text="Username:" />
-          <TextField width="200" text="{{ username }}" id="username" hint="Username" />
-
-          <Label text="Password:" />
-          <TextField width="200" text="{{ password }}" secure="true" hint="Password" />
-
-          <Label text="First Name:" />
-          <TextField width="200" text="{{ firstName }}" id="firstname" hint="First Name" />
-
-          <Label text="Last Name:" />
-          <TextField width="200" text="{{ lastName }}" id="lastname" hint="Last Name" />
+          <Label text="Email Address:" id="id1"/>
+          <Border cornerRadius="1" borderWidth="2" borderColor="#ACB0AF">
+          	<TextField width="200" text="{{ email_address }}" id="email" hint="Email Address" keyboardType="email" />
+          </Border>
+          
+          <Label text="Username:" id="id1"/>
+          <Border cornerRadius="1" borderWidth="2" borderColor="#ACB0AF">
+          	<TextField width="200" text="{{ username }}" id="username" hint="Username" />
+          </Border>
+          
+          <Label text="Password:" id="id1"/>
+          <Border cornerRadius="1" borderWidth="2" borderColor="#ACB0AF">
+          	<TextField width="200" text="{{ password }}" secure="true" hint="Password" />
+          </Border>
+          
+          <Label text="First Name:" id="id1"/>
+          <Border cornerRadius="1" borderWidth="2" borderColor="#ACB0AF">
+          	<TextField width="200" text="{{ firstName }}" id="firstname" hint="First Name" />
+          </Border>
+          
+          <Label text="Last Name:" id="id1"/>
+          <Border cornerRadius="1" borderWidth="2" borderColor="#ACB0AF">
+         	 <TextField width="200" text="{{ lastName }}" id="lastname" hint="Last Name" />
+          </Border>
           
           <Button text="Sign Up" tap="register" />
       </StackLayout>
