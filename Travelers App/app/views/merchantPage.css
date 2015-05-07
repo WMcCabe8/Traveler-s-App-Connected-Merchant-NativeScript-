@@ -11,5 +11,9 @@ WrapLayout {
     color: #669900;
     font-size: 14;
 }
+Button {
+    background-color: #EEEEEE;
+    color: #3385D6;
+}
 
 

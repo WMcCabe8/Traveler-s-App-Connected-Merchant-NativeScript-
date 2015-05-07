@@ -3,10 +3,17 @@
     text-align: center;
 }
 
+#title {
+    text-align: center;
+    font-size: 28;
+    color: #527A00;
+}
+
 Textfield {
     text-align:center;
 }
 
 Button {
-    color: blue;
+    background-color: #EEEEEE;
+    color: #3385D6;
 }

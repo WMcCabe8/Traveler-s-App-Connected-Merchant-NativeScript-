@@ -3,4 +3,9 @@ ListView {
 }
 Label {
 	margin: 10;
+    color: #3385D6;
+}
+Button {
+    background-color: #EEEEEE;
+    color: #3385D6;
 }

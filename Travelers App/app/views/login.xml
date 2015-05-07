@@ -1,6 +1,7 @@
 <Page loaded="load">
     <StackLayout marginLeft="20" marginRight="20">
-        <Image source="{{ logoSource }}" />
+        <Image source="{{ logoSource }}" horizontalAlignment="center"/>
+        <Label text="Traveler's App" id="title"/>
         
         <Label text="Username:" id="id1"/>
         <Border cornerRadius="1" borderWidth="2" borderColor="#ACB0AF">

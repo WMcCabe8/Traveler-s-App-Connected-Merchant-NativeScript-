@@ -2,7 +2,9 @@
   <GridLayout rows="auto, *">
       <ListView items="{{ merchants }}" itemTap="toMerchant" row="1">
           <ListView.itemTemplate>
-              <Label text="{{ storename }}" />
+              <Border cornerRadius="20" borderWidth="2" borderColor="#669900">
+              	<Label text="{{ storename }}" />
+              </Border>
           </ListView.itemTemplate>
       </ListView>
   </GridLayout>

@@ -1,9 +1,9 @@
 Page {
-	background-color: #DADCDB;
+	background-color: white;
 	font-size: 17;
 }
 Image {
-	margin: 30;
+	margin: 3;
 }
 Label {
 	/* left, top, right, bottom */
@@ -15,4 +15,6 @@ TextField {
 }
 Button {
 	margin: 10;
+    background-color: #EEEEEE;
+    color: #3385D6;
 }
